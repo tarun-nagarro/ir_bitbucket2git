@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Middle_Initial__c</fullName>
+    <description>so created as part of Data Migration Activity @ CLR2980</description>
+    <externalId>false</externalId>
+    <inlineHelpText>so created as part of Data Migration Activity @ CLR2980</inlineHelpText>
+    <label>Middle Initial</label>
+    <length>1</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

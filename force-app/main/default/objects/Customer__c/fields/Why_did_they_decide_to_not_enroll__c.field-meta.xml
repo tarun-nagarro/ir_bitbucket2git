@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_did_they_decide_to_not_enroll__c</fullName>
+    <externalId>false</externalId>
+    <label>Why did they decide to not enroll?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>will be moving soon</fullName>
+                <default>false</default>
+                <label>will be moving soon</label>
+            </value>
+            <value>
+                <fullName>don’t like new pricing program</fullName>
+                <default>false</default>
+                <label>don’t like new pricing program</label>
+            </value>
+            <value>
+                <fullName>don’t think savings will be high enough</fullName>
+                <default>false</default>
+                <label>don’t think savings will be high enough</label>
+            </value>
+            <value>
+                <fullName>children don’t want me to [for elderly person]</fullName>
+                <default>false</default>
+                <label>children don’t want me to [for elderly person]</label>
+            </value>
+            <value>
+                <fullName>don’t want to change how I use energy</fullName>
+                <default>false</default>
+                <label>don’t want to change how I use energy</label>
+            </value>
+            <value>
+                <fullName>none of the utility’s business when I use my energy</fullName>
+                <default>false</default>
+                <label>none of the utility’s business when I use my energy</label>
+            </value>
+            <value>
+                <fullName>protect my privacy</fullName>
+                <default>false</default>
+                <label>protect my privacy</label>
+            </value>
+            <value>
+                <fullName>other</fullName>
+                <default>false</default>
+                <label>other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

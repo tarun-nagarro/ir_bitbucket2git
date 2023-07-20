@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_coupon_Centerpoint</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Send coupon</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/35.0/apex.js&quot;)} 
+
+var Customer = sforce.connection.query(&quot;SELECT Account__c from Customer__c where id =&apos;{!Customer__c.Id}&apos; limit 1&quot;);
+
+records = Customer.getArray(&quot;records&quot;); 
+
+var accountId = records[0].Account__c; 
+
+if(accountId==null || accountId==&apos;&apos;){ 
+   alert(&quot;Account is not added on the customer record&quot;); 
+}else{
+   window.open(&apos;https://prod-coupons.secure.force.com/CenterPoint?custId={!Customer__c.Id}&amp;quickC=true&apos;);
+}</url>
+</WebLink>

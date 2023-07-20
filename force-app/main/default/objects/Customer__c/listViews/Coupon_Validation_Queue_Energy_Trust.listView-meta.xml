@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coupon_Validation_Queue_Energy_Trust</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>How_do_you_heat_your_home__c</columns>
+    <columns>How_do_you_cool_your_home__c</columns>
+    <columns>Electric_Provider_Name__c</columns>
+    <columns>Gas_Provider_Name__c</columns>
+    <columns>Service_Street__c</columns>
+    <columns>Service_City__c</columns>
+    <columns>Service_State__c</columns>
+    <columns>Service_Zipcode__c</columns>
+    <columns>Customer_Phone__c</columns>
+    <columns>Email__c</columns>
+    <columns>Retailer__c</columns>
+    <columns>Service_Address_Full__c</columns>
+    <columns>Service_Address2_Full__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Utility__c</field>
+        <operation>equals</operation>
+        <value>Energy Trust</value>
+    </filters>
+    <filters>
+        <field>Coupon_Name__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>SDGE_Failed_Registration_Complete__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Coupon Validation Queue - Energy Trust</label>
+    <sharedTo>
+        <group>DSMT_ETO_IR</group>
+    </sharedTo>
+</ListView>

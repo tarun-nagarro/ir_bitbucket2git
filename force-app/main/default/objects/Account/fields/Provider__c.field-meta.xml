@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provider__c</fullName>
+    <externalId>false</externalId>
+    <label>Provider</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>CenterPoint Energy</fullName>
+                <default>false</default>
+                <label>CenterPoint Energy</label>
+            </value>
+            <value>
+                <fullName>PPL Electric Utilities</fullName>
+                <default>false</default>
+                <label>PPL Electric Utilities</label>
+            </value>
+            <value>
+                <fullName>ETO</fullName>
+                <default>false</default>
+                <label>ETO</label>
+            </value>
+            <value>
+                <fullName>Comed</fullName>
+                <default>false</default>
+                <label>Comed</label>
+            </value>
+            <value>
+                <fullName>BGE</fullName>
+                <default>true</default>
+                <label>BGE</label>
+            </value>
+            <value>
+                <fullName>Energy Trust</fullName>
+                <default>false</default>
+                <label>Energy Trust</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

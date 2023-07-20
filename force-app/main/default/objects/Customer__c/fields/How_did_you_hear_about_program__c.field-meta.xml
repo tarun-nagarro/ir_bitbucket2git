@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_about_program__c</fullName>
+    <externalId>false</externalId>
+    <label>How did you hear about program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+                <label>Word of Mouth</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Digital advertising</fullName>
+                <default>false</default>
+                <label>Digital advertising</label>
+            </value>
+            <value>
+                <fullName>In-store advertising</fullName>
+                <default>false</default>
+                <label>In-store advertising</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>CenterPoint Energy</fullName>
+                <default>false</default>
+                <label>CenterPoint Energy</label>
+            </value>
+            <value>
+                <fullName>Retail Electric Provider</fullName>
+                <default>false</default>
+                <label>Retail Electric Provider</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

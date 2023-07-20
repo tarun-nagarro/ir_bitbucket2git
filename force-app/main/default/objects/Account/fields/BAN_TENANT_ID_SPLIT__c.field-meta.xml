@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BAN_TENANT_ID_SPLIT__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(LEN(Billing_Account_Number_with_Tenant_ID__c) &gt; 8,  (RIGHT(Billing_Account_Number_with_Tenant_ID__c ,2)), &apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>BAN TENANT ID SPLIT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

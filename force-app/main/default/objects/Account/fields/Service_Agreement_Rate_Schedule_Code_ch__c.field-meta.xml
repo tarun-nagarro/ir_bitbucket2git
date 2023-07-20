@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Agreement_Rate_Schedule_Code_ch__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field will checked if Service Agreement Rate Schedule Code  is exist . This field is used in dsmtCustomerEligibilitySearchController</description>
+    <externalId>false</externalId>
+    <label>Service Agreement Rate Schedule Code ch</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

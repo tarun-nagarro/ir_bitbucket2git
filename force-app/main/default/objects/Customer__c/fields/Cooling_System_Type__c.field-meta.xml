@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cooling_System_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Cooling System Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Central Air Conditioner</fullName>
+                <default>false</default>
+                <label>Central Air Conditioner</label>
+            </value>
+            <value>
+                <fullName>Air Source Heat Pump</fullName>
+                <default>false</default>
+                <label>Air Source Heat Pump</label>
+            </value>
+            <value>
+                <fullName>Ground Source Heat Pump</fullName>
+                <default>false</default>
+                <label>Ground Source Heat Pump</label>
+            </value>
+            <value>
+                <fullName>Ductless Mini-Split Heat Pump</fullName>
+                <default>false</default>
+                <label>Ductless Mini-Split Heat Pump</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program__c</fullName>
+    <externalId>false</externalId>
+    <label>Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2007 QUALIFYING PROJECT</fullName>
+                <default>false</default>
+                <label>2007 QUALIFYING PROJECT</label>
+            </value>
+            <value>
+                <fullName>ACCOUNT MANAGEMENT</fullName>
+                <default>false</default>
+                <label>ACCOUNT MANAGEMENT</label>
+            </value>
+            <value>
+                <fullName>Account Plan</fullName>
+                <default>false</default>
+                <label>Account Plan</label>
+            </value>
+            <value>
+                <fullName>Billing Convenience Services</fullName>
+                <default>false</default>
+                <label>Billing Convenience Services</label>
+            </value>
+            <value>
+                <fullName>BILL PAY OPTIONS</fullName>
+                <default>false</default>
+                <label>BILL PAY OPTIONS</label>
+            </value>
+            <value>
+                <fullName>Bulk Power Emergency</fullName>
+                <default>false</default>
+                <label>Bulk Power Emergency</label>
+            </value>
+            <value>
+                <fullName>Business News Line</fullName>
+                <default>false</default>
+                <label>Business News Line</label>
+            </value>
+            <value>
+                <fullName>CALL IN PROBLEMS</fullName>
+                <default>false</default>
+                <label>CALL IN PROBLEMS</label>
+            </value>
+            <value>
+                <fullName>Ebilling</fullName>
+                <default>false</default>
+                <label>Ebilling</label>
+            </value>
+            <value>
+                <fullName>Eclips</fullName>
+                <default>false</default>
+                <label>Eclips</label>
+            </value>
+            <value>
+                <fullName>Electronic Payment Option</fullName>
+                <default>false</default>
+                <label>Electronic Payment Option</label>
+            </value>
+            <value>
+                <fullName>ENERGY MANAGEMENT</fullName>
+                <default>false</default>
+                <label>ENERGY MANAGEMENT</label>
+            </value>
+            <value>
+                <fullName>Energy Profiler Online</fullName>
+                <default>false</default>
+                <label>Energy Profiler Online</label>
+            </value>
+            <value>
+                <fullName>EnFocus</fullName>
+                <default>false</default>
+                <label>EnFocus</label>
+            </value>
+            <value>
+                <fullName>Excess Facilities</fullName>
+                <default>false</default>
+                <label>Excess Facilities</label>
+            </value>
+            <value>
+                <fullName>FUTURE PROJECT DOLLARS</fullName>
+                <default>false</default>
+                <label>FUTURE PROJECT DOLLARS</label>
+            </value>
+            <value>
+                <fullName>Gas Curtailment</fullName>
+                <default>false</default>
+                <label>Gas Curtailment</label>
+            </value>
+            <value>
+                <fullName>Interruptible Service, IS</fullName>
+                <default>false</default>
+                <label>Interruptible Service, IS</label>
+            </value>
+            <value>
+                <fullName>MANAGE FACILITIES</fullName>
+                <default>false</default>
+                <label>MANAGE FACILITIES</label>
+            </value>
+            <value>
+                <fullName>MyDuke</fullName>
+                <default>false</default>
+                <label>MyDuke</label>
+            </value>
+            <value>
+                <fullName>Non-Residential Energy/Assessment</fullName>
+                <default>false</default>
+                <label>Non-Residential Energy/Assessment</label>
+            </value>
+            <value>
+                <fullName>Ohio Choice- Electric</fullName>
+                <default>false</default>
+                <label>Ohio Choice- Electric</label>
+            </value>
+            <value>
+                <fullName>Ohio Choice- Gas</fullName>
+                <default>false</default>
+                <label>Ohio Choice- Gas</label>
+            </value>
+            <value>
+                <fullName>OUTAGE MANAGEMENT</fullName>
+                <default>false</default>
+                <label>OUTAGE MANAGEMENT</label>
+            </value>
+            <value>
+                <fullName>Outage Management Services</fullName>
+                <default>false</default>
+                <label>Outage Management Services</label>
+            </value>
+            <value>
+                <fullName>OUTDOOR LIGHTING</fullName>
+                <default>false</default>
+                <label>OUTDOOR LIGHTING</label>
+            </value>
+            <value>
+                <fullName>PAY BILL</fullName>
+                <default>false</default>
+                <label>PAY BILL</label>
+            </value>
+            <value>
+                <fullName>PLANNED PROJECT</fullName>
+                <default>false</default>
+                <label>PLANNED PROJECT</label>
+            </value>
+            <value>
+                <fullName>Power Quality Services</fullName>
+                <default>false</default>
+                <label>Power Quality Services</label>
+            </value>
+            <value>
+                <fullName>PowerShare</fullName>
+                <default>false</default>
+                <label>PowerShare</label>
+            </value>
+            <value>
+                <fullName>Powershare Eligible</fullName>
+                <default>false</default>
+                <label>Powershare Eligible</label>
+            </value>
+            <value>
+                <fullName>Reserve Capacity</fullName>
+                <default>false</default>
+                <label>Reserve Capacity</label>
+            </value>
+            <value>
+                <fullName>RTP</fullName>
+                <default>false</default>
+                <label>RTP</label>
+            </value>
+            <value>
+                <fullName>Special Contract</fullName>
+                <default>false</default>
+                <label>Special Contract</label>
+            </value>
+            <value>
+                <fullName>Standby Generation</fullName>
+                <default>false</default>
+                <label>Standby Generation</label>
+            </value>
+            <value>
+                <fullName>Summary Billing</fullName>
+                <default>false</default>
+                <label>Summary Billing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_did_they_enroll__c</fullName>
+    <externalId>false</externalId>
+    <label>Why did they enroll?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>save money</fullName>
+                <default>false</default>
+                <label>save money</label>
+            </value>
+            <value>
+                <fullName>help the utility</fullName>
+                <default>false</default>
+                <label>help the utility</label>
+            </value>
+            <value>
+                <fullName>help the environment</fullName>
+                <default>false</default>
+                <label>help the environment</label>
+            </value>
+            <value>
+                <fullName>be more energy efficient</fullName>
+                <default>false</default>
+                <label>be more energy efficient</label>
+            </value>
+            <value>
+                <fullName>on a similar program previously and liked it</fullName>
+                <default>false</default>
+                <label>on a similar program previously and liked it</label>
+            </value>
+            <value>
+                <fullName>the utility is doing something interesting, other</fullName>
+                <default>false</default>
+                <label>the utility is doing something interesting, other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

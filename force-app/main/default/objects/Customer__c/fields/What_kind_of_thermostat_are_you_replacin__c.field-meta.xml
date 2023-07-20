@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_kind_of_thermostat_are_you_replacin__c</fullName>
+    <externalId>false</externalId>
+    <label>What kind of thermostat are you replacin</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Manual</fullName>
+                <default>false</default>
+                <label>Manual</label>
+            </value>
+            <value>
+                <fullName>Programmable</fullName>
+                <default>false</default>
+                <label>Programmable</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>None (new construction)</fullName>
+                <default>false</default>
+                <label>None (new construction)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

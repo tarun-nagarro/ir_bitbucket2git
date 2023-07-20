@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OTH_PROVIDERCODE__c</fullName>
+    <externalId>false</externalId>
+    <label>OTH PROVIDERCODE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Eversource</fullName>
+                <default>false</default>
+                <label>Eversource</label>
+            </value>
+            <value>
+                <fullName>National Grid</fullName>
+                <default>false</default>
+                <label>National Grid</label>
+            </value>
+            <value>
+                <fullName>Eversource West</fullName>
+                <default>false</default>
+                <label>Eversource West</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

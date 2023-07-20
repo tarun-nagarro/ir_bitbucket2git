@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Syste__c</fullName>
+    <description>Modified by TJ, related to ITG 445056. Added picklist value.</description>
+    <externalId>false</externalId>
+    <label>Billing System</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CBIS</fullName>
+                <default>false</default>
+                <label>CBIS</label>
+            </value>
+            <value>
+                <fullName>CIM</fullName>
+                <default>false</default>
+                <label>CIM</label>
+            </value>
+            <value>
+                <fullName>CMSE</fullName>
+                <default>false</default>
+                <label>CMSE</label>
+            </value>
+            <value>
+                <fullName>CMSW</fullName>
+                <default>false</default>
+                <label>CMSW</label>
+            </value>
+            <value>
+                <fullName>CSS</fullName>
+                <default>false</default>
+                <label>CSS</label>
+            </value>
+            <value>
+                <fullName>EVE</fullName>
+                <default>false</default>
+                <label>EVE</label>
+            </value>
+            <value>
+                <fullName>Wholesale</fullName>
+                <default>false</default>
+                <label>Wholesale</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

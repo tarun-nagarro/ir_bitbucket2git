@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Failed_Validation</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Failed Validation</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/connection.js&quot;)} 
+if(confirm(&apos;Are you sure to confirm this customer could not be validated this time. This will send an email confirmation to customer.&apos;)){
+	try{ 
+		var customer = new sforce.SObject(&quot;Customer__c&quot;); 
+		customer.Id = &quot;{!Customer__c.Id}&quot;;
+		customer.Customer_Not_Validated__c=true;	
+		var updatedresult = sforce.connection.update([customer]); 
+		if(updatedresult[0].success == &quot;true&quot;){ 
+			location.reload(); 
+		}else{ 
+			alert(&quot;An Error has Occurred. Error: &quot; +updatedresult[0].errors.message); 
+		}
+	}catch(e){ 
+		alert(&quot;An Error has Occurred. Error: &quot; + e); 
+	}
+}</url>
+</WebLink>

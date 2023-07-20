@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coupon_Validation_Queue_Customer</fullName>
+    <columns>NAME</columns>
+    <columns>Coupon_Name__c</columns>
+    <columns>Retailer__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Utility__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>Coupon Validation Queue</label>
+    <queue>Coupon_Validation_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

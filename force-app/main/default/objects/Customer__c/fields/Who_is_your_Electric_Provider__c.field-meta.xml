@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Who_is_your_Electric_Provider__c</fullName>
+    <externalId>false</externalId>
+    <label>Who is your Electric Provider?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>4CHANGE ENERGY</fullName>
+                <default>false</default>
+                <label>4CHANGE ENERGY</label>
+            </value>
+            <value>
+                <fullName>AMBIT ENERGY</fullName>
+                <default>false</default>
+                <label>AMBIT ENERGY</label>
+            </value>
+            <value>
+                <fullName>AMIGO ENERGY</fullName>
+                <default>false</default>
+                <label>AMIGO ENERGY</label>
+            </value>
+            <value>
+                <fullName>AP GAS &amp; ELECTRIC (TX) LLC</fullName>
+                <default>false</default>
+                <label>AP GAS &amp; ELECTRIC (TX) LLC</label>
+            </value>
+            <value>
+                <fullName>BOUNCE ENERGY INC</fullName>
+                <default>false</default>
+                <label>BOUNCE ENERGY INC</label>
+            </value>
+            <value>
+                <fullName>CHAMPION ENERGY SERVICES LLC</fullName>
+                <default>false</default>
+                <label>CHAMPION ENERGY SERVICES LLC</label>
+            </value>
+            <value>
+                <fullName>CIRRO ENERGY</fullName>
+                <default>false</default>
+                <label>CIRRO ENERGY</label>
+            </value>
+            <value>
+                <fullName>CONSTELLATION NEWENERGY INC</fullName>
+                <default>false</default>
+                <label>CONSTELLATION NEWENERGY INC</label>
+            </value>
+            <value>
+                <fullName>DIRECT ENERGY</fullName>
+                <default>false</default>
+                <label>DIRECT ENERGY</label>
+            </value>
+            <value>
+                <fullName>DISCOUNT POWER</fullName>
+                <default>false</default>
+                <label>DISCOUNT POWER</label>
+            </value>
+            <value>
+                <fullName>ENTRUST ENERGY INC</fullName>
+                <default>false</default>
+                <label>ENTRUST ENERGY INC</label>
+            </value>
+            <value>
+                <fullName>Evolve Energy</fullName>
+                <default>false</default>
+                <label>Evolve Energy</label>
+            </value>
+            <value>
+                <fullName>EXPRESS ENERGY</fullName>
+                <default>false</default>
+                <label>EXPRESS ENERGY</label>
+            </value>
+            <value>
+                <fullName>FIRST CHOICE POWER</fullName>
+                <default>false</default>
+                <label>FIRST CHOICE POWER</label>
+            </value>
+            <value>
+                <fullName>FRONTIER UTILITIES</fullName>
+                <default>false</default>
+                <label>FRONTIER UTILITIES</label>
+            </value>
+            <value>
+                <fullName>GEXA ENERGY</fullName>
+                <default>false</default>
+                <label>GEXA ENERGY</label>
+            </value>
+            <value>
+                <fullName>GREEN MOUNTAIN ENERGY COMPANY</fullName>
+                <default>false</default>
+                <label>GREEN MOUNTAIN ENERGY COMPANY</label>
+            </value>
+            <value>
+                <fullName>HELLO ENERGY</fullName>
+                <default>false</default>
+                <label>HELLO ENERGY</label>
+            </value>
+            <value>
+                <fullName>HUDSON ENERGY</fullName>
+                <default>false</default>
+                <label>HUDSON ENERGY</label>
+            </value>
+            <value>
+                <fullName>INFINITE ENERGY</fullName>
+                <default>false</default>
+                <label>INFINITE ENERGY</label>
+            </value>
+            <value>
+                <fullName>INFUSE ENERGY LLC</fullName>
+                <default>false</default>
+                <label>INFUSE ENERGY LLC</label>
+            </value>
+            <value>
+                <fullName>JUST ENERGY</fullName>
+                <default>false</default>
+                <label>JUST ENERGY</label>
+            </value>
+            <value>
+                <fullName>LIFEENERGY LLC</fullName>
+                <default>false</default>
+                <label>LIFEENERGY LLC</label>
+            </value>
+            <value>
+                <fullName>LPT LLC</fullName>
+                <default>false</default>
+                <label>LPT LLC</label>
+            </value>
+            <value>
+                <fullName>MIDAMERICAN ENERGY SERVICES LLC</fullName>
+                <default>false</default>
+                <label>MIDAMERICAN ENERGY SERVICES LLC</label>
+            </value>
+            <value>
+                <fullName>Octopus Energy</fullName>
+                <default>false</default>
+                <label>Octopus Energy</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>OUR ENERGY LLC</fullName>
+                <default>false</default>
+                <label>OUR ENERGY LLC</label>
+            </value>
+            <value>
+                <fullName>PENNYWISE POWER</fullName>
+                <default>false</default>
+                <label>PENNYWISE POWER</label>
+            </value>
+            <value>
+                <fullName>RELIANT</fullName>
+                <default>false</default>
+                <label>RELIANT</label>
+            </value>
+            <value>
+                <fullName>Rhythm Energy</fullName>
+                <default>false</default>
+                <label>Rhythm Energy</label>
+            </value>
+            <value>
+                <fullName>SOUTHWEST POWER &amp; LIGHT</fullName>
+                <default>false</default>
+                <label>SOUTHWEST POWER &amp; LIGHT</label>
+            </value>
+            <value>
+                <fullName>SPARK ENERGY LLC</fullName>
+                <default>false</default>
+                <label>SPARK ENERGY LLC</label>
+            </value>
+            <value>
+                <fullName>Stream Energy</fullName>
+                <default>false</default>
+                <label>Stream Energy</label>
+            </value>
+            <value>
+                <fullName>TARA ENERGY</fullName>
+                <default>false</default>
+                <label>TARA ENERGY</label>
+            </value>
+            <value>
+                <fullName>THINK ENERGY</fullName>
+                <default>false</default>
+                <label>THINK ENERGY</label>
+            </value>
+            <value>
+                <fullName>TOMMORROW ENERGY</fullName>
+                <default>false</default>
+                <label>TOMMORROW ENERGY</label>
+            </value>
+            <value>
+                <fullName>TRIEAGLE ENERGY</fullName>
+                <default>false</default>
+                <label>TRIEAGLE ENERGY</label>
+            </value>
+            <value>
+                <fullName>TRIEAGLE ENERGY LP</fullName>
+                <default>false</default>
+                <label>TRIEAGLE ENERGY LP</label>
+            </value>
+            <value>
+                <fullName>TXU ENERGY</fullName>
+                <default>false</default>
+                <label>TXU ENERGY</label>
+            </value>
+            <value>
+                <fullName>V247 POWER CORPORATION</fullName>
+                <default>false</default>
+                <label>V247 POWER CORPORATION</label>
+            </value>
+            <value>
+                <fullName>VETERAN ENERGY</fullName>
+                <default>false</default>
+                <label>VETERAN ENERGY</label>
+            </value>
+            <value>
+                <fullName>VETERAN ENERGY LLC</fullName>
+                <default>false</default>
+                <label>VETERAN ENERGY LLC</label>
+            </value>
+            <value>
+                <fullName>WINDROSE ENERGY</fullName>
+                <default>false</default>
+                <label>WINDROSE ENERGY</label>
+            </value>
+            <value>
+                <fullName>XOOM Energy</fullName>
+                <default>false</default>
+                <label>XOOM Energy</label>
+            </value>
+            <value>
+                <fullName>YEP</fullName>
+                <default>false</default>
+                <label>YEP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Customer_System_Cd__c</fullName>
+    <description>Added NINT964 BE 05/2014 SERG on standard layout</description>
+    <externalId>false</externalId>
+    <label>Source Customer System Cd</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CBIS</fullName>
+                <default>false</default>
+                <label>CBIS</label>
+            </value>
+            <value>
+                <fullName>CIM</fullName>
+                <default>false</default>
+                <label>CIM</label>
+            </value>
+            <value>
+                <fullName>CMSE</fullName>
+                <default>false</default>
+                <label>CMSE</label>
+            </value>
+            <value>
+                <fullName>CMSW</fullName>
+                <default>false</default>
+                <label>CMSW</label>
+            </value>
+            <value>
+                <fullName>CSS</fullName>
+                <default>false</default>
+                <label>CSS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

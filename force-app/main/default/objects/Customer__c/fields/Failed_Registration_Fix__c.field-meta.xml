@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Failed_Registration_Fix__c</fullName>
+    <externalId>false</externalId>
+    <label>Resolution Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No change required</fullName>
+                <default>false</default>
+                <label>No change required</label>
+            </value>
+            <value>
+                <fullName>Typo in address</fullName>
+                <default>false</default>
+                <label>Typo in address</label>
+            </value>
+            <value>
+                <fullName>Typo in name</fullName>
+                <default>false</default>
+                <label>Typo in name</label>
+            </value>
+            <value>
+                <fullName>System error</fullName>
+                <default>false</default>
+                <label>System error</label>
+            </value>
+            <value>
+                <fullName>Name/address mismatch</fullName>
+                <default>false</default>
+                <label>Name/address mismatch</label>
+            </value>
+            <value>
+                <fullName>No record found</fullName>
+                <default>false</default>
+                <label>No record found</label>
+            </value>
+            <value>
+                <fullName>API issue</fullName>
+                <default>false</default>
+                <label>API issue</label>
+            </value>
+            <value>
+                <fullName>Wrong city/ZIP</fullName>
+                <default>false</default>
+                <label>Wrong city/ZIP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

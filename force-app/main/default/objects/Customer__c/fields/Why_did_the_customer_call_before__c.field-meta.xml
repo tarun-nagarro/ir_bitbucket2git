@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_did_the_customer_call_before__c</fullName>
+    <externalId>false</externalId>
+    <label>Why did the customer call before?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>Enrollment (didn’t enroll, did enroll, declined enrollment)</fullName>
+                <default>false</default>
+                <label>Enrollment (didn’t enroll, did enroll, declined enrollment)</label>
+            </value>
+            <value>
+                <fullName>IHD issue</fullName>
+                <default>false</default>
+                <label>IHD issue</label>
+            </value>
+            <value>
+                <fullName>PCT issue</fullName>
+                <default>false</default>
+                <label>PCT issue</label>
+            </value>
+            <value>
+                <fullName>Billing issue</fullName>
+                <default>false</default>
+                <label>Billing issue</label>
+            </value>
+            <value>
+                <fullName>Smart meter issue</fullName>
+                <default>false</default>
+                <label>Smart meter issue</label>
+            </value>
+            <value>
+                <fullName>Quit program</fullName>
+                <default>false</default>
+                <label>Quit program</label>
+            </value>
+            <value>
+                <fullName>Wants to move to new location and stay in treatment group</fullName>
+                <default>false</default>
+                <label>Wants to move to new location and stay in treatment group</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

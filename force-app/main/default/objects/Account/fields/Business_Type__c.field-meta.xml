@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Type__c</fullName>
+    <description>added NINT 964 BE 05/2014 SERG On Standard Layout</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Formally known as &quot;Account Attribute&quot; field and is auto-populated based on SIC code.</inlineHelpText>
+    <label>Business Type</label>
+    <length>55</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

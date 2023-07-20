@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>BotController</members>
+		<members>BotField</members>
+		<members>BotHandler</members>
+		<members>BotTest</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>FileNotFound</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>dsmtUpdateEULADate</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>DEMO_SFDX_CLI</members>
+		<members>Org_Name</members>
+		<name>CustomLabel</name>
+	</types>
+	<types>
+		<members>Account</members>
+		<members>Customer__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Asset-Asset Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>Admin</members>
+		<name>Profile</name>
+	</types>
+	<version>55.0</version>
+</Package>

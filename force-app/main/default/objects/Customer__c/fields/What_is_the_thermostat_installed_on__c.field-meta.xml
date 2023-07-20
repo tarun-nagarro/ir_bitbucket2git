@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_is_the_thermostat_installed_on__c</fullName>
+    <externalId>false</externalId>
+    <label>What is the thermostat installed on?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Central air conditioner and furnace</fullName>
+                <default>false</default>
+                <label>Central air conditioner and furnace</label>
+            </value>
+            <value>
+                <fullName>Central air conditioner and electric resistance heat</fullName>
+                <default>false</default>
+                <label>Central air conditioner and electric resistance heat</label>
+            </value>
+            <value>
+                <fullName>Electric resistance heat (no central air conditioner)</fullName>
+                <default>false</default>
+                <label>Electric resistance heat (no central air conditioner)</label>
+            </value>
+            <value>
+                <fullName>Heat pump</fullName>
+                <default>false</default>
+                <label>Heat pump</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

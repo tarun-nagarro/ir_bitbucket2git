@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_type_of_thermostat_s_do_you_have_i__c</fullName>
+    <externalId>false</externalId>
+    <label>What type of thermostat(s) do you have i</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non-programmable thermostat- I am not interested in changing my thermostat</fullName>
+                <default>false</default>
+                <label>Non-programmable thermostat- I am not interested in changing my thermostat</label>
+            </value>
+            <value>
+                <fullName>Non-programmable thermostat- I am interested in a programmable thermostat at no charge</fullName>
+                <default>false</default>
+                <label>Non-programmable thermostat- I am interested in a programmable thermostat at no charge</label>
+            </value>
+            <value>
+                <fullName>Non-programmable thermostat- I am interested in purchasing an ecobee4 at the discounted price of $150</fullName>
+                <default>false</default>
+                <label>Non-programmable thermostat- I am interested in purchasing an ecobee4 at the discounted price of $150</label>
+            </value>
+            <value>
+                <fullName>Programmable thermostat- I am not interested in purchasing a smart thermostat</fullName>
+                <default>false</default>
+                <label>Programmable thermostat- I am not interested in purchasing a smart thermostat</label>
+            </value>
+            <value>
+                <fullName>Programmable thermostat- I am interested in purchasing an ecobee4 at the discounted price of $150</fullName>
+                <default>false</default>
+                <label>Programmable thermostat- I am interested in purchasing an ecobee4 at the discounted price of $150</label>
+            </value>
+            <value>
+                <fullName>Smart thermostat- You already have the most efficient type of thermostat</fullName>
+                <default>false</default>
+                <label>Smart thermostat- You already have the most efficient type of thermostat</label>
+            </value>
+            <value>
+                <fullName>I have a zoned system (one furnace with multiple thermostats)- not eligible under this program</fullName>
+                <default>false</default>
+                <label>I have a zoned system (one furnace with multiple thermostats)- not eligible under this program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

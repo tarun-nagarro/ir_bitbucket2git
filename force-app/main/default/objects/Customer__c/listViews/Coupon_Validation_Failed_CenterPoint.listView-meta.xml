@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coupon_Validation_Failed_CenterPoint</fullName>
+    <columns>NAME</columns>
+    <columns>Service_Street__c</columns>
+    <columns>Coupon_Name__c</columns>
+    <columns>Retailer__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Utility__c</columns>
+    <columns>Email__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Utility__c</field>
+        <operation>equals</operation>
+        <value>Centerpoint</value>
+    </filters>
+    <filters>
+        <field>Coupon_Name__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>SDGE_Failed_Registration_Complete__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Coupon Validation Failed - CenterPoint</label>
+    <sharedTo>
+        <group>DSMT_CP_IR</group>
+    </sharedTo>
+</ListView>

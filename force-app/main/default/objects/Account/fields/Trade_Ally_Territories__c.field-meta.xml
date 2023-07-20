@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trade_Ally_Territories__c</fullName>
+    <externalId>false</externalId>
+    <label>Trade Ally Territories</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DE IN</fullName>
+                <default>false</default>
+                <label>DE IN</label>
+            </value>
+            <value>
+                <fullName>DE OH</fullName>
+                <default>false</default>
+                <label>DE OH</label>
+            </value>
+            <value>
+                <fullName>DE KY</fullName>
+                <default>false</default>
+                <label>DE KY</label>
+            </value>
+            <value>
+                <fullName>DE NC</fullName>
+                <default>false</default>
+                <label>DE NC</label>
+            </value>
+            <value>
+                <fullName>DE SC</fullName>
+                <default>false</default>
+                <label>DE SC</label>
+            </value>
+            <value>
+                <fullName>DEP NC</fullName>
+                <default>false</default>
+                <label>DEP NC</label>
+            </value>
+            <value>
+                <fullName>DEP SC</fullName>
+                <default>false</default>
+                <label>DEP SC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

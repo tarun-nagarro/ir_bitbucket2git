@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_CenterPoint</fullName>
+    <columns>NAME</columns>
+    <columns>Email__c</columns>
+    <columns>Who_is_your_Electric_Provider__c</columns>
+    <columns>Retailer__c</columns>
+    <columns>Property_Type__c</columns>
+    <columns>What_kind_of_thermostat_are_you_replacin__c</columns>
+    <columns>How_did_you_hear_about_program__c</columns>
+    <columns>Are_you_interested_in_other_Energy_Effic__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Ip_Address__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>contains</operation>
+        <value>CenterPoint</value>
+    </filters>
+    <label>All-CenterPoint</label>
+</ListView>

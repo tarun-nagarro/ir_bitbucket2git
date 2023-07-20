@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EE_Opt_Out_Indicator__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Added NINT964 BE 05/2014 SERG on standard layout</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Box is checked if a Customer is Opted Out</inlineHelpText>
+    <label>EE Opt-out Indicator</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

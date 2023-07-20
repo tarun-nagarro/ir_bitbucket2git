@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_did_you_hear_about_this_program__c</fullName>
+    <externalId>false</externalId>
+    <label>How did you hear about this program?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bill Insert</fullName>
+                <default>false</default>
+                <label>Bill Insert</label>
+            </value>
+            <value>
+                <fullName>Contractor</fullName>
+                <default>false</default>
+                <label>Contractor</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Internet/Online Ad</fullName>
+                <default>false</default>
+                <label>Internet/Online Ad</label>
+            </value>
+            <value>
+                <fullName>Newspaper/Magazine Ad</fullName>
+                <default>false</default>
+                <label>Newspaper/Magazine Ad</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Previous audit</fullName>
+                <default>false</default>
+                <label>Previous audit</label>
+            </value>
+            <value>
+                <fullName>Radio</fullName>
+                <default>false</default>
+                <label>Radio</label>
+            </value>
+            <value>
+                <fullName>Social Media (Facebook, etc.)</fullName>
+                <default>false</default>
+                <label>Social Media (Facebook, etc.)</label>
+            </value>
+            <value>
+                <fullName>State agency</fullName>
+                <default>false</default>
+                <label>State agency</label>
+            </value>
+            <value>
+                <fullName>Television</fullName>
+                <default>false</default>
+                <label>Television</label>
+            </value>
+            <value>
+                <fullName>Utility</fullName>
+                <default>false</default>
+                <label>Utility</label>
+            </value>
+            <value>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+                <label>Word of mouth</label>
+            </value>
+            <value>
+                <fullName>Outdoor Advertising (i.e. billboard)</fullName>
+                <default>false</default>
+                <label>Outdoor Advertising (i.e. billboard)</label>
+            </value>
+            <value>
+                <fullName>Landlord</fullName>
+                <default>false</default>
+                <label>Landlord</label>
+            </value>
+            <value>
+                <fullName>Real Estate Agent/Home Inspector</fullName>
+                <default>false</default>
+                <label>Real Estate Agent/Home Inspector</label>
+            </value>
+            <value>
+                <fullName>CE Email</fullName>
+                <default>false</default>
+                <label>CE Email</label>
+            </value>
+            <value>
+                <fullName>Email from Utility</fullName>
+                <default>false</default>
+                <label>Email from Utility</label>
+            </value>
+            <value>
+                <fullName>Internet Search or Online Advertisement</fullName>
+                <default>false</default>
+                <label>Internet Search or Online Advertisement</label>
+            </value>
+            <value>
+                <fullName>Utility representative</fullName>
+                <default>false</default>
+                <label>Utility representative</label>
+            </value>
+            <value>
+                <fullName>Word-of-Mouth (family, friends, neighbors)</fullName>
+                <default>false</default>
+                <label>Word-of-Mouth (family, friends, neighbors)</label>
+            </value>
+            <value>
+                <fullName>Real Estate Agent</fullName>
+                <default>false</default>
+                <label>Real Estate Agent</label>
+            </value>
+            <value>
+                <fullName>Postcard</fullName>
+                <default>false</default>
+                <label>Postcard</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

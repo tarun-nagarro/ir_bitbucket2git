@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Will_the_water_heater_location_be_in_a_h__c</fullName>
+    <externalId>false</externalId>
+    <label>Will the water heater location be in a h</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Electric Heat</fullName>
+                <default>false</default>
+                <label>Electric Heat</label>
+            </value>
+            <value>
+                <fullName>Non-Electric Heat</fullName>
+                <default>false</default>
+                <label>Non-Electric Heat</label>
+            </value>
+            <value>
+                <fullName>Unheated</fullName>
+                <default>false</default>
+                <label>Unheated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

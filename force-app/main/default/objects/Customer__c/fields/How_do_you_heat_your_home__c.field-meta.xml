@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_do_you_heat_your_home__c</fullName>
+    <externalId>false</externalId>
+    <label>How do you heat your home?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Electric Furnace</fullName>
+                <default>false</default>
+                <label>Electric Furnace</label>
+            </value>
+            <value>
+                <fullName>Gas Furnace</fullName>
+                <default>false</default>
+                <label>Gas Furnace</label>
+            </value>
+            <value>
+                <fullName>Heat Pump</fullName>
+                <default>false</default>
+                <label>Heat Pump</label>
+            </value>
+            <value>
+                <fullName>Other (propane, oil, wood, ductless heat pump, electric baseboard or cadet)</fullName>
+                <default>false</default>
+                <label>Other (propane, oil, wood, ductless heat pump, electric baseboard or cadet)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
