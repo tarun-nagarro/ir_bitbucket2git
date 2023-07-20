@@ -40,9 +40,9 @@ definitions:
           
 pipelines:
   custom: # Pipelines that can only be triggered manually
-    'Validate':
+    'ValidateCICD':
       - step: *generateDelta
       - step: 
           <<: *buildConvert
           <<: *validateWithoutTests
-          deployment: IR-CICD
+          deployment: ircicd
