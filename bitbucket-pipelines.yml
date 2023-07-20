@@ -45,4 +45,4 @@ pipelines:
       - step: 
           <<: *buildConvert
           <<: *validateWithoutTests
-          deployment: ircicd
+          deployment: cicd
