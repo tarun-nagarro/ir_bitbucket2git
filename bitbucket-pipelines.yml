@@ -1,0 +1,48 @@
+# This is an example Starter pipeline configuration
+# Use a skeleton to build, test and deploy using manual and parallel steps
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+
+image: salesforce/salesforcedx:7.209.6-full
+
+
+definitions:
+  steps:
+    - step: &generateDelta
+        name: Generate Delta
+        script:
+          - echo "Generate Delta goes here..."
+          
+    - step: &buildConvert
+        name: Build and Convert
+        script:
+          - echo "Build Convert goes here..."
+         
+    - step: &deployWithoutTests
+        name: Deploy Without Tests
+        script:
+          - echo "Deploy Without Tests goes here..."
+    
+    - step: &deployWithTests
+        name: Deploy WithTests
+        script:
+          - echo "Deploy With Tests goes here..."
+          
+    - step: &validateWithoutTests
+        name: Validate Without Tests
+        script:
+          - echo "Validate Without Tests goes here..."
+    
+    - step: &validateWithTests
+        name: Validate WithTests
+        script:
+          - echo "Validate With Tests goes here..."
+          
+pipelines:
+  custom: # Pipelines that can only be triggered manually
+    'Validate':
+      - step: *generateDelta
+      - step: 
+          <<: *buildConvert
+          <<: *validateWithoutTests
+          deployment: IR-CICD
