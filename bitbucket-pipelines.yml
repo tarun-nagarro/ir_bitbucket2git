@@ -51,5 +51,6 @@ pipelines:
       - step: *installPlugin
       - step: *generateDelta
       - step: *buildConvert
-      - step: *validateWithoutTests
+      - step: 
+          <<: *validateWithoutTests
           deployment: cicd
