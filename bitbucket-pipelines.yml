@@ -48,8 +48,8 @@ definitions:
 pipelines:
   custom: # Pipelines that can only be triggered manually
     'ValidateCICD':
+      - step: *installPlugin
       - step: *generateDelta
-      - step: 
-          <<: *buildConvert
-          <<: *validateWithoutTests
+      - step: *buildConvert
+      - step: *validateWithoutTests
           deployment: cicd
