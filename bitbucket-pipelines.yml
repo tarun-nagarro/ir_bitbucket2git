@@ -12,6 +12,7 @@ definitions:
         name: Generate Delta
         script:
           - echo "Generate Delta goes here..."
+          - sfdx --version
           
     - step: &buildConvert
         name: Build and Convert
