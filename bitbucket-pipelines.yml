@@ -8,11 +8,17 @@ image: salesforce/salesforcedx:7.209.6-full
 
 definitions:
   steps:
+    - step: &installPlugin
+        name: Install Plugin
+        script:
+          - echo "Install Plugin goes here..."
+          - sfdx plugins:install sfdx-git-delta
+          
     - step: &generateDelta
         name: Generate Delta
         script:
           - echo "Generate Delta goes here..."
-          - sfdx --version
+          - sfdx sgd:source:delta --to "HEAD" --from "HEAD~1" --output "."
           
     - step: &buildConvert
         name: Build and Convert
