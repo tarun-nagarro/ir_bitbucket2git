@@ -12,7 +12,7 @@ definitions:
         name: Install Plugin
         script:
           - echo "Install Plugin goes here..."
-          - sfdx plugins:install sfdx-git-delta
+          - echo y | sfdx plugins:install sfdx-git-delta
           
     - step: &generateDelta
         name: Generate Delta
