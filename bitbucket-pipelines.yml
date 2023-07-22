@@ -24,7 +24,7 @@ definitions:
         name: Build and Convert
         script:
           - echo "Build Convert goes here..."
-          -sfdx project:convert:source -r ./deltaChanges -d ./deltaChangesDeploy
+          - sfdx project:convert:source -r ./deltaChanges -d ./deltaChangesDeploy
          
     - step: &deployWithoutTests
         name: Deploy Without Tests
