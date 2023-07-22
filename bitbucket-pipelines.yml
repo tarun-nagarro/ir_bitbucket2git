@@ -22,6 +22,7 @@ definitions:
         name: Generate Delta
         script:
           - echo "Generate Delta goes here..."
+          - git diff fb3d20c7151~1 HEAD --name-only
           - echo y | sfdx sfpowerkit:project:diff --revisionfrom fb3d20c7151 --revisionto HEAD --output deltaChanges --apiversion 57.0 -x
           
     - step: &buildConvert
