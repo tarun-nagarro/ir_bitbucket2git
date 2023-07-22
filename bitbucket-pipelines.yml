@@ -13,6 +13,12 @@ definitions:
         script:
           - echo "Install Plugin goes here..."
           - echo y | sfdx plugins:install sfpowerkit
+          - node -v
+          - git --version
+          - sfdx --version
+          - sfdx plugins
+          - npm i sfdx-git-delta
+          - sfdx plugins
           
     - step: &generateDelta
         name: Generate Delta
