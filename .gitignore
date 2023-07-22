@@ -9,7 +9,8 @@
 deploy-options.json
 .husky/
 .vscode/
-
+deltaChanges/
+deltaChangesDeploy/
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
 

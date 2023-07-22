@@ -18,12 +18,13 @@ definitions:
         name: Generate Delta
         script:
           - echo "Generate Delta goes here..."
-          - sfdx sfpowerkit:project:diff --revisionfrom HEAD~1 --revisionto HEAD --output deltaChanges --apiversion 57.0 -x
+          - sfdx sfpowerkit:project:diff --revisionfrom fb3d20c7151 --revisionto HEAD --output deltaChanges --apiversion 57.0 -x
           
     - step: &buildConvert
         name: Build and Convert
         script:
           - echo "Build Convert goes here..."
+          -sfdx project:convert:source -r ./deltaChanges -d ./deltaChangesDeploy
          
     - step: &deployWithoutTests
         name: Deploy Without Tests
