@@ -17,14 +17,12 @@ definitions:
           - git --version
           - sfdx --version
           - sfdx plugins
-          - npm i sfdx-git-delta
-          - sfdx plugins
           
     - step: &generateDelta
         name: Generate Delta
         script:
           - echo "Generate Delta goes here..."
-          - sfdx sfpowerkit:project:diff --revisionfrom fb3d20c7151 --revisionto HEAD --output deltaChanges --apiversion 57.0 -x
+          - echo y | sfdx sfpowerkit:project:diff --revisionfrom fb3d20c7151 --revisionto HEAD --output deltaChanges --apiversion 57.0 -x
           
     - step: &buildConvert
         name: Build and Convert
