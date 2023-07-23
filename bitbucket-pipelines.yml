@@ -3,7 +3,7 @@
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
 
-image: salesforce/salesforcedx:7.209.6-full
+image: salesforce/cli
 
 
 definitions:
