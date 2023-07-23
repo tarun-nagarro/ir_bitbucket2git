@@ -3,7 +3,7 @@
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
 
-image: salesforce/cli
+image: atlassian/default-image:3
 
 
 definitions:
@@ -12,6 +12,7 @@ definitions:
         name: Install Plugin
         script:
           - echo "Install Plugin goes here..."
+          - npm install -g @salesforce/cli
           - echo 'y' | sfdx plugins:install sfdx-git-delta
           - sfdx plugins
           
