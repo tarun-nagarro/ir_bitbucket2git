@@ -12,12 +12,8 @@ definitions:
         name: Install Plugin
         script:
           - echo "Install Plugin goes here..."
+          - npm install sfdx-cli --global
           - echo 'y' | sfdx plugins:install sfdx-git-delta
-          - node -v
-          - git --version
-          - sfdx --version
-          - sfdx plugins
-          - npm i sfdx-git-delta
           - sfdx plugins
           
     - step: &generateDelta
