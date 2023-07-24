@@ -22,6 +22,7 @@ definitions:
         script:
           - echo "Generate Delta goes here..."
           - git diff fb3d20c7151~1 HEAD --name-only
+          - mkdir deltaChanges
           - sfdx sgd:source:delta --to HEAD --from fb3d20c7151~1 --output ./deltaChanges
           
     - step: &buildConvert
