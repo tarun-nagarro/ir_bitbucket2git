@@ -59,4 +59,12 @@ pipelines:
       - step: *buildConvert
       - step: 
           <<: *validateWithoutTests
-          deployment: cicd
+          deployment: cicd  
+  pull-requests: # This pipeline will run whenever any pull-request is raised to any branch.
+    '**':
+      - step: *installPlugin
+      - step: *generateDelta
+      - step: *buildConvert
+      - step: 
+          <<: *validateWithoutTests
+          deployment: cicd  
